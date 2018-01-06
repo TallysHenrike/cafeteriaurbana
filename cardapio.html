@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width,height=device-height">
+        <meta charset="utf-8"/>
+        <title>Cafeteria Urbana</title>
+        <link rel="stylesheet" href="globalstyle.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="background">
+            <div id="menu">
+                <ul id="menu-responsivo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="sobre.html">A cafeteria</a></li>
+                </ul>
+                <div id="icone-menu"></div>
+            </div>
+            <div class="container">
+                <div class="artigo">
+                    <h4>Café com leite</h4>
+                    <img src="img/cafecomleite.gif"/>
+                    <p>Trata-se do café filtrado com leite aquecido ou fervido. Também pode apresentar-se como café expresso com leite vaporizado e uma fina camada de espuma de leite.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Mocha</h4>
+                    <img src="img/mocha.gif"/>
+                    <p>Drink que conta com uma calda de chocolate, leite vaporizado, espuma de leite e uma dose de expresso. A mistura pode ser tri-fásica ou uma mistura de café com a calda de chocolate com a crema do leite por cima. Pode também ser conhecido pelo nome de Mocaccino, termo utilizado e criado por uma rede de cafeterias internacional.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Cappuccino</h4>
+                    <img src="img/capuccinno.gif"/>
+                    <p>O verdadeiro cappuccino apresenta 1/3 de expresso, 1/3 de leite vaporizado, 1/3 de espuma de leite na xícara de 150 a 180 ml. A espuma do cappuccino deve ser densa e cremosa, com temperatura de no máximo 60º para se tomar em goles. No Brasil, há o hábito de acrescentar canela ou chocolate.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Cappuccino Italiano</h4>
+                    <img src="img/capuccinno-italiano.gif"/>
+                    <p>Compreende em: 1/3 de expresso; 1/3 de leite vaporizado e 1/3 de espuma de leite na xícara de 150 a 180 ml.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Pingado</h4>
+                    <img src="img/PINGADO.gif"/>
+                    <p>Um copo de leite quente que recebe uma pequena quantidade de café, ou seja, somente um pingo de café. Bebida bastante popular em botecos e padarias do Brasil e é, geralmente, servido no copo americano.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Média</h4>
+                    <img src="img/media.gif"/>
+                    <p>Tradicional nas padarias brasileiras, é conhecida lá fora como Latte ou Café Latte. Café expresso com leite vaporizado e uma fina camada de espuma. Sua textura deve ser um pouco menos cremosa que o cappuccino.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Café Cortado</h4>
+                    <img src="img/cafe-cortado.gif"/>
+                    <p>É como chamam a Média (Café Latte ou Latte) no Rio Grande do Sul.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Macchiato</h4>
+                    <img src="img/machiato.gif"/>
+                    <p>Geralmente é servido na xícara de expresso e consiste em um expresso “manchado” com a crema do leite. No Brasil, é conhecido também como “café com espuminha”. Muitos preferem tomar essa bebida, pois a crema do leite quebra um pouco o sabor intenso do expresso.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Café com Panna</h4>
+                    <img src="img/panna.gif"/>
+                    <p>Muito comum na Itália, este café conta com a Panna (creme de leite fresco batido ou feito na coqueteleira). Considerando que alguns estados brasileiros não permitem a comercialização de leite fresco, apenas pasteurizado, muitas cafeterias substituem a Panna por chantilly.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Café com Chantilly</h4>
+                    <img src="img/chantilly.gif"/>
+                    <p>Muito comum em todo o Brasil, compreende em uma dose de expresso coberto com chantilly.</p>
+                </div>
+                <div class="artigo">
+                    <h4>Café Breve</h4>
+                    <img src="img/breve.gif"/>
+                    <p>Muito comum nos Estados Unidos, trata-se de uma dose de expresso com creme half–and–half (composto de metade leite, metade creme de leite). Infelizmente, este café não é comercializado no Brasil, pois este tipo especial de creme não é comercializado</p>
+                </div>
+            </div>
+            <footer>
+                <h1>Copyright © 2017 - by Tallys Henrike</h1>|
+                <h1><a href="http://www.facebook.com/tallys.henrike" target="_blank">Facebook</a></h1>
+            </footer>
+        </div>
+        <script>
+            var m = document.getElementById('icone-menu');
+            m.onclick = function() {
+                var x = document.getElementById('menu-responsivo');
+                if (x.style.display === 'block') {
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+    </body>
+</html>

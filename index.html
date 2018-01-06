@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width,height=device-height">
+        <meta charset="utf-8"/>
+        <title>Cafeteria Urbana</title>
+        <link rel="stylesheet" href="globalstyle.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="background">
+            <div id="menu">
+                <ul id="menu-responsivo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="sobre.html">A cafeteria</a></li>
+                </ul>
+                <div id="icone-menu"></div>
+            </div>            
+            <div class="banner"><h1>Cafeteria Urbana</h1></div>
+            <div id="promocoes-dia">
+                <h3>Promoções do dia</h3>
+                <div id="promocoes-flex">
+                    <div class="promocao">
+                        <h4>Pingado</h4>
+                        <img src="img/PINGADO.gif"/>
+                        <p>Preço promocional R$0.00</p>
+                    </div>
+                    <div class="promocao">
+                        <h4>Macchiato</h4>
+                        <img src="img/machiato.gif"/>
+                        <p>Preço promocional R$0.00</p>
+                    </div>
+                    <div class="promocao">
+                        <h4>Café com Chantilly</h4>
+                        <img src="img/chantilly.gif"/>
+                        <p>Preço promocional R$0.00</p>
+                    </div>
+                </div>
+                <div class="button"><a href="cardapio.html">Cardápio completo</a></div>
+            </div>
+            <div class="fex-center">
+                <div class="compra">
+                    <p>Nosso café é uma bebida produzida apartir de grãos selecionados cultivados da melhor plantação de café da região.</p>
+                    <div class="button"><a href="sobre.html">conheça nossa cafeteria</a></div>
+                </div>
+            </div>
+            <footer>
+                <h1>Copyright © 2017 - by Tallys Henrike</h1>|
+                <h1><a href="http://www.facebook.com/tallys.henrike" target="_blank">Facebook</a></h1>
+            </footer>
+        </div>
+        <script>
+            var m = document.getElementById('icone-menu');
+            m.onclick = function() {
+                var x = document.getElementById('menu-responsivo');
+                if (x.style.display === 'block') {
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+    </body>
+</html>
